@@ -1,4 +1,5 @@
 {
 	"id": "dockerstress",
+	"image": "dkuffner/docker-stress",
 	"cpu": 0.75
 }
