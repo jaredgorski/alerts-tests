@@ -1,2 +1,3 @@
 FROM dkuffner/docker-stress
-CMD ["run", "-d", "stress", "-c", "1"]
+ENTRYPOINT["stress"]
+CMD ["-c", "1"]
