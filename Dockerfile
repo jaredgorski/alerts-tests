@@ -1,2 +1,2 @@
 FROM dkuffner/docker-stress
-CMD stress -c 1
+CMD ["stress", "-c", "1"]
